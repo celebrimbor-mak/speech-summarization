@@ -1,0 +1,16 @@
+Codes:
+1. audio_to_text.py: Converts .wav files to .trn files, given the location of .wav files.
+2. tag.py: Maps documents to Noun and Verbs.
+3. topic_model_k_fold: Training and testing LDA model for K-Fold to generate perplexity values.
+4. lda.py: LDA model building on optimum topics and reporting top concepts.
+
+Files:
+1. tagged_data.txt: File with documents mapped to Nouns and Verbs.
+2. perplexity_values.json: Perplexity values for topics for K-Fold run.
+3. top_topics.txt: Top concepts in each topic
+
+Use:
+Just run the file "master.py".
+
+We get top concepts using these one can any approach such as greedy approach can report important sentences,
+which would reflect the summary.
