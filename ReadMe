@@ -1,3 +1,7 @@
+The code uses Google-speech API to convert multiple/single audio files to text,
+then performs topic modeling for summarization.
+
+
 Codes:
 1. audio_to_text.py: Converts .wav files to .trn files, given the location of .wav files.
 2. tag.py: Maps documents to Noun and Verbs.
